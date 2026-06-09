@@ -1,6 +1,10 @@
 
 # 🎮 Hangman (Jogo da Forca)
 
+## 🎯 Objective
+
+Build the classic Hangman game in Python to practice string manipulation, loops, conditionals and user input.
+
 ## 🎯 Objetivo
 
 Construir a versão clássica do jogo da forca em Python, praticando manipulação de strings, loops, condicionais e entrada do usuário.
@@ -14,61 +18,61 @@ Construir a versão clássica do jogo da forca em Python, praticando manipulaç�
 - Código inicial: `starter-code.py`
 - Lista de palavras exemplo (interna ao `starter-code.py`)
 
-## 📝 Tarefas
+## 📝 Tasks
 
-### 🛠️ 1 — Seleção de palavra e estado do jogo
+### 🛠️ 1 — Word selection and game state
 
-#### Descrição
-Escolher aleatoriamente uma palavra de uma lista e manter o estado atual (letras reveladas e letras erradas).
+#### Description
+Choose a random word from a list and maintain the current state (revealed letters and wrong letters).
 
-#### Requisitos
+#### Requirements
 
-- Selecionar uma palavra aleatória a partir de uma lista predefinida.
-- Representar o progresso do jogador no formato `_ _ a _ _`.
+- Select a random word from a predefined list.
+- Represent player progress in the `_ _ a _ _` format.
 
-### 🛠️ 2 — Entrada do jogador e lógica de tentativas
+### 🛠️ 2 — Player input and attempt logic
 
-#### Descrição
-Aceitar guesses do jogador, atualizar o estado e controlar o número de tentativas restantes.
+#### Description
+Accept player guesses, update state and control remaining attempts.
 
-#### Requisitos
+#### Requirements
 
-- Aceitar entrada de uma letra por tentativa.
-- Ignorar entradas inválidas (mais de uma letra, não-alfabético) com mensagem de erro.
-- Atualizar letras corretas e lista de erros; decrementar tentativas quando a letra não existir na palavra.
+- Accept a single-letter input per attempt.
+- Ignore invalid inputs (more than one character, non-alphabetic) with an error message.
+- Update correct letters and wrong-guesses list; decrement attempts for wrong letters.
 
-### 🛠️ 3 — Condições de vitória/derrota e mensagens
+### 🛠️ 3 — Win/lose conditions and messages
 
-#### Descrição
-Detectar fim de jogo (palavra completa ou tentativas esgotadas) e exibir mensagens apropriadas.
+#### Description
+Detect end of game (word complete or attempts exhausted) and display appropriate messages.
 
-#### Requisitos
+#### Requirements
 
-- Mostrar mensagem de vitória com a palavra completa quando o jogador acertar todas as letras.
-- Mostrar mensagem de derrota quando as tentativas acabarem, revelando a palavra correta.
+- Display a victory message with the completed word when the player guesses all letters.
+- Display a defeat message when attempts run out, revealing the correct word.
 
-### 🛠️ 4 — (Opcional) Melhorias
+### 🛠️ 4 — (Optional) Enhancements
 
-#### Sugestões
+#### Suggestions
 
-- Permitir adivinhar a palavra inteira.
-- Salvar pontuações simples (tentativas restantes) em um arquivo.
-- Melhorar a interface textual (desenho da forca em ASCII).
+- Allow guessing the full word.
+- Save simple scores (remaining attempts) to a file.
+- Improve the textual UI (ASCII hangman drawing).
 
-## Exemplos / Uso
+## Examples / Usage
 
-Execute `starter-code.py` na pasta da atividade para jogar a versão de exemplo:
+Run `starter-code.py` in the assignment folder to play the example version:
 
 ```bash
 python3 starter-code.py
 ```
 
-## Como testar
+## How to test
 
-- Testes manuais: jogue algumas partidas, verifique tratamento de entradas inválidas e mensagens finais.
-- Para facilitar testes automatizados, mantenha a lógica principal em funções (ex.: `select_word()`, `process_guess(state, guess)`).
+- Manual tests: play several rounds, check invalid input handling and final messages.
+- For automated tests, keep core logic in functions (e.g. `select_word()`, `process_guess(state, guess)`).
 
-## Observações para o instrutor
+## Notes for instructor
 
-- O `starter-code.py` deve apenas orquestrar a execução e chamar funções testáveis; evite intercalar lógica e I/O intensivo diretamente nas funções core.
+- `starter-code.py` should orchestrate execution and call testable functions; avoid mixing core logic and I/O.
 
