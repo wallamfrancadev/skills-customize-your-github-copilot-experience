@@ -1,54 +1,74 @@
 
 # 📘 Assignment: Python Basics
 
-## 🎯 Objective
+## 🎯 Objetivo
 
-Practice fundamental Python programming skills including user input, string formatting, arithmetic operations, and conditional statements by implementing simple functions.
+Praticar conceitos fundamentais de Python: entrada do usuário, formatação de strings, operações aritméticas e estruturas condicionais implementando funções simples e testáveis.
 
-## 📝 Tasks
+## ⏳ Duração estimada
 
-### 🛠️ User Input and String Formatting
+30–45 minutos
 
-#### Description
-Write a function called `welcome_message()` that interacts with the user and returns a formatted welcome message.
+## 🔧 Recursos fornecidos
 
-#### Requirements
-Completed program should:
+- Código inicial: `starter-code.py`
+- Arquivos de apoio/exemplos: veja a pasta da atividade
 
-- Ask the user for their name, age, and favorite color using `input()`.
-- Return a welcome message formatted as:
-  `Hello, [name]! You are [age] years old and your favorite color is [color].`
-- Example output:
-  `Hello, Alice! You are 25 years old and your favorite color is blue.`
+## 📝 Tarefas
 
-### 🛠️ Basic Arithmetic
+### 🛠️ 1 — Mensagem de boas-vindas
 
-#### Description
-Write a function called `add_two_numbers()` that prompts the user for two numbers and prints their sum.
+#### Descrição
+Implemente `welcome_message()` que solicita nome, idade e cor favorita e retorna uma mensagem formatada.
 
-#### Requirements
-Completed program should:
+#### Requisitos
 
-- Ask the user to enter two numbers.
-- Add the numbers together.
-- Print the result. Example:
-  Enter the first number: 3
-  Enter the second number: 7
-  10
+- Ler `name`, `age` e `color` via `input()`.
+- Retornar a string: "Hello, [name]! You are [age] years old and your favorite color is [color]."
+- Fornecer um exemplo de uso no `if __name__ == '__main__':`.
 
-### 🛠️ Conditional Statements
+### 🛠️ 2 — Soma de dois números
 
-#### Description
-Write a function called `is_even()` that checks if a number is even.
+#### Descrição
+Implemente `add_two_numbers()` que lê dois números do usuário e retorna a soma.
 
-#### Requirements
-Completed program should:
+#### Requisitos
 
-- Take a single integer argument.
-- Return `True` if the number is even, and `False` if it is odd.
-- Example usage:
-  ```python
-  print(is_even(4))  # True
-  print(is_even(5))  # False
-  ```
+- Solicitar dois números (aceitar inteiros ou floats).
+- Retornar o resultado (não imprimir diretamente em funções que serão testadas).
+- Incluir tratamento básico de entradas inválidas (ex.: mensagens de erro).
+
+### 🛠️ 3 — Verificador de paridade
+
+#### Descrição
+Implemente `is_even(n)` que verifica se um número inteiro é par.
+
+#### Requisitos
+
+- Receber um inteiro como argumento.
+- Retornar `True` se for par, `False` caso contrário.
+- Incluir exemplos no README e testes simples no `starter-code.py`.
+
+## Exemplos
+
+Exemplo de uso de `is_even`:
+
+```python
+print(is_even(4))  # True
+print(is_even(5))  # False
+```
+
+## Como testar
+
+1. Abra um terminal na pasta da atividade.
+2. Execute:
+
+```bash
+python3 starter-code.py
+```
+
+## Observações para o instrutor
+
+- Mantenha o `starter-code.py` pequeno e focado em invocar as funções para facilitar testes automatizados.
+
 
