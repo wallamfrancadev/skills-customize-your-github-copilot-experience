@@ -1,32 +1,33 @@
-# Customize Your GitHub Copilot Experience
+<div align="center">
 
-**Descrição**
-- **Resumo:** Projeto educativo que disponibiliza exercícios e templates para aprender programação. O site permite navegar, visualizar e baixar assignments prontos.
+# 🎉 Congratulations wallamfrancadev! 🎉
 
-**Funcionalidades principais**
-- **Navegar assignments:** estrutura organizada em subpastas dentro de [assignments/](assignments/).
-- **Conteúdo reutilizável:** modelos em [templates/](templates/) para criar novos exercícios.
-- **Assets estáticos:** CSS, JavaScript e imagens em [assets/](assets/).
+<img src="https://octodex.github.com/images/welcometocat.png" height="200px" />
 
-**Começando rápido**
-- **Abrir localmente:** abra [index.html](index.html) no navegador para visualizar o portal estático.
-- **Configuração:** ajuste a lista/ordem de assignments em [config.json](config.json) quando necessário.
+### 🌟 You've successfully completed the exercise! 🌟
 
-**Estrutura do projeto**
-- **`assignments/`**: cada exercício tem sua própria pasta com `README.md`, `starter-code.py` e outros recursos.
-- **`templates/`**: modelos para criar novos assignments (use [templates/assignment-template.md](templates/assignment-template.md)).
-- **`assets/`**: contém `css/`, `js/` e `images/` usados pelo site.
-- **`index.html`**: página principal do portal.
-- **`config.json`**: arquivo de configuração para gerar/ordenar conteúdo.
+## 🚀 Share Your Success!
 
-**Como adicionar um novo assignment**
-- Copie o modelo em [templates/assignment-template.md](templates/assignment-template.md) para uma nova pasta em [assignments/](assignments/) e preencha `README.md` com objetivo, tarefas e requisitos claros.
+**Show off your new skills and inspire others!**
 
-**Contribuindo**
-- Siga o padrão de conteúdo do projeto: título, objetivo, tarefas com descrições e requisitos. Mantenha exemplos e código inicial (`starter-code.py`) simples e testável.
+<a href="https://twitter.com/intent/tweet?text=I%20just%20completed%20the%20%22Customize%20Your%20GitHub%20Copilot%20Experience%22%20GitHub%20Skills%20hands-on%20exercise!%20%F0%9F%8E%89%0A%0Ahttps%3A%2F%2Fgithub.com%2Fwallamfrancadev%2Fskills-customize-your-github-copilot-experience%0A%0A%23GitHubSkills%20%23OpenSource%20%23GitHubLearn" target="_blank" rel="noopener noreferrer">
+  <img src="https://img.shields.io/badge/Share%20on%20X-1da1f2?style=for-the-badge&logo=x&logoColor=white" alt="Share on X" />
+</a>
+<a href="https://bsky.app/intent/compose?text=I%20just%20completed%20the%20%22Customize%20Your%20GitHub%20Copilot%20Experience%22%20GitHub%20Skills%20hands-on%20exercise!%20%F0%9F%8E%89%0A%0Ahttps%3A%2F%2Fgithub.com%2Fwallamfrancadev%2Fskills-customize-your-github-copilot-experience%0A%0A%23GitHubSkills%20%23OpenSource%20%23GitHubLearn" target="_blank" rel="noopener noreferrer">
+  <img src="https://img.shields.io/badge/Share%20on%20Bluesky-0085ff?style=for-the-badge&logo=bluesky&logoColor=white" alt="Share on Bluesky" />
+</a>
+<a href="https://www.linkedin.com/feed/?shareActive=true&text=I%20just%20completed%20the%20%22Customize%20Your%20GitHub%20Copilot%20Experience%22%20GitHub%20Skills%20hands-on%20exercise!%20%F0%9F%8E%89%0A%0Ahttps%3A%2F%2Fgithub.com%2Fwallamfrancadev%2Fskills-customize-your-github-copilot-experience%0A%0A%23GitHubSkills%20%23OpenSource%20%23GitHubLearn" target="_blank" rel="noopener noreferrer">
+  <img src="https://img.shields.io/badge/Share%20on%20LinkedIn-0077b5?style=for-the-badge&logo=linkedin&logoColor=white" alt="Share on LinkedIn" />
+</a>
 
-**Licença**
-- Projeto licenciado sob [LICENSE](LICENSE).
+### 🎯 What's Next?
 
-Se quiser, eu posso: atualizar um `README.md` de assignment específico para seguir o template, ou abrir um pull request com várias atualizações.
+**Keep the momentum going!**
+
+[![](https://img.shields.io/badge/Return%20to%20Exercise-%E2%86%92-1f883d?style=for-the-badge&logo=github&labelColor=197935)](https://github.com/wallamfrancadev/skills-customize-your-github-copilot-experience/issues/1)
+[![GitHub Skills](https://img.shields.io/badge/Explore%20GitHub%20Skills-000000?style=for-the-badge&logo=github&logoColor=white)](https://learn.github.com/skills)
+
+*There's no better way to learn than building things!* 🚀
+
+</div>
 
