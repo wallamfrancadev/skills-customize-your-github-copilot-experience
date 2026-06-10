@@ -72,6 +72,20 @@
           "type": "python"
         }
       ]
+    },
+    {
+      "id": "exception-handling-debugging",
+      "title": "Exception Handling & Debugging",
+      "description": "Master error handling and debugging techniques to write robust, production-ready Python code",
+      "path": "assignments/exception-handling-debugging",
+      "dueDate": "2026-06-24",
+      "attachments": [
+        {
+          "name": "Starter Code",
+          "file": "starter-code.py",
+          "type": "python"
+        }
+      ]
     }
   ]
 }
